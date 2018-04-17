@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.germa.proyecto.ReportesFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reportes"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Reportes"
+            tools:ignore="HardcodedText" />
+
+        <!-- linea de separación-->
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="9dp"
+            tools:ignore="UselessLeaf">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="43sp"
+            android:text="Grupo:"
+            android:textAlignment="viewStart"
+            android:textSize="24sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <!-- linea de separación-->
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            tools:ignore="UselessLeaf">
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lista_reportes"
+            android:layout_width="300sp"
+            android:layout_height="362dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFDADADA"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+</FrameLayout>

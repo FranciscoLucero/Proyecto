@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.germa.proyecto.AlumnosDetalle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="Información Alumnos"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Nombre:"
+            android:textAlignment="inherit"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+        <TextView
+            android:id="@+id/tv_apellido_pat"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Apellido Paterno:"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+        <TextView
+            android:id="@+id/tv_apellido_mat"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Apellido Materno:"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+        <TextView
+            android:id="@+id/tv_grupo"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Grupo:"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+        <TextView
+            android:id="@+id/tv_domicilio"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Domicilio:"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+        <TextView
+            android:id="@+id/tv_num_contacto"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Numero de Contacto:"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.germa.proyecto.MainActivity">
+
+    <!-- Linea de separación-->
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="100dp"
+        tools:ignore="UselessLeaf">
+
+    </LinearLayout>
+
+    <!-- Cuadro de texto "usuario"-->
+    <TextView
+        android:id="@+id/id_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:hint="Usuario"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Campo para ingresar el nombre de usuario-->
+    <EditText
+        android:id="@+id/tv_usuario"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"
+        android:background="#FFDADADA"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <!-- linea de separación-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf">
+    </LinearLayout>
+
+    <!-- Cuadro de texto "contraseña"-->
+    <TextView
+        android:id="@+id/id_contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:hint="Contraseña"
+        tools:ignore="HardcodedText" />
+
+    <!-- Campo para ingresar la contraseña-->
+    <EditText
+        android:id="@+id/tv_contraseña"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"
+        android:background="#FFDADADA"
+        android:layout_gravity="center"
+        android:inputType="textPassword" />
+
+    <!-- linea de separación-->
+    <LinearLayout
+        android:layout_width="5dp"
+        android:layout_height="30dp"
+        tools:ignore="UselessLeaf">
+    </LinearLayout>
+
+    <!-- Contenedor-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <!-- Boton "Entrar"-->
+        <Button
+            android:id="@+id/btn_iniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Entrar"
+            android:shadowColor="#000000"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

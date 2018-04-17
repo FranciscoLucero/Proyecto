@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alumnos"
+            android:icon="@drawable/ic_person_black"
+            android:title="Alumnos"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_docentes"
+            android:icon="@drawable/ic_person_outline_black"
+            android:title="Docentes"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Lista de asistencia"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_reportes"
+            android:icon="@drawable/ic_report_black"
+            android:title="Reportes"
+            tools:ignore="HardcodedText" />
+    </group>
+
+</menu>
